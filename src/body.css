@@ -1,0 +1,110 @@
+.custom-btn {
+    color: #000000 !important; /* Replace with your desired color (e.g., blue) */
+    
+    font-weight: bold; /* Optional: Make it bold */
+    height: 100px; /* Set the height of the container */
+  line-height: 80px; /* Match the line-height to the container height */
+  text-align: center; /* Horizontal centering */
+    margin-top: -10px;
+    margin-bottom: -8px;
+    text-decoration: none; /* Remove underline */
+  }
+.custom-nav{
+   
+    animation: fade-colors 6s infinite ease-in-out;
+}
+   
+      
+
+
+/* Define the fade animation for colors */
+@keyframes fade-colors {
+    0%, 100% {
+        background-color: #3498db; /* Start and end with the same color */
+      }
+      50% {
+        background-color: #e74c3c; /* Middle color */
+      }
+  }
+  
+  
+    
+  
+  
+
+.custom {
+    color: #000000 !important; /* Replace with your desired color (e.g., blue) */
+    font-size: 100px;
+    font-weight: bold; /* Optional: Make it bold */
+    height: 100px; /* Set the height of the container */
+  line-height: 80px; /* Match the line-height to the container height */
+  text-align: center; /* Horizontal centering */
+    margin-top: -10px;
+    margin-bottom: -8px;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .custom:hover {
+    color: #2ecc71 !important; /* Change font color on hover (e.g., green) */
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  /* Footer styles */
+.footer {
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text */
+    padding: 20px 0; /* Top and bottom padding */
+    text-align: center; /* Center text by default */
+  }
+  
+  .footer-container {
+    max-width: 1200px; /* Limit footer width */
+    margin: 0 auto; /* Center the footer */
+    padding: 0 20px; /* Add side padding for smaller screens */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Spacing between items */
+  }
+  
+  .footer-links {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    display: flex; /* Inline list */
+    gap: 15px; /* Spacing between links */
+  }
+  
+  .footer-links li {
+    margin: 0;
+  }
+  
+  .footer-links a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px;
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .footer-links a:hover {
+    color: #4caf50; /* Change color on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column; /* Stack items on smaller screens */
+    }
+  }
+/* Style for the carousel images */
+.carousel-inner img {
+    margin-top: 0.5%;
+    width: 1000px;
+    height: 650px;
+    object-fit: cover; /* Ensures images maintain aspect ratio while filling the space */
+  }
+  
+  /* Optional styling to center the carousel for better layout */
+ 
+    
